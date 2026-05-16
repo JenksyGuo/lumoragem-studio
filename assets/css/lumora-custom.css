@@ -1,0 +1,141 @@
+.lumora-page {
+    background: #fffaf5;
+}
+
+.lumora-brand {
+    color: #34261f !important;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.lumora-header-link {
+    color: #8d6a4f;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.lumora-kicker {
+    color: #9a6a45;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.lumora-hero .hero-content .title,
+.lumora-hero .hero-content h1 {
+    color: #281f1a;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 68px;
+    letter-spacing: 0;
+    line-height: 1.04;
+    margin-bottom: 24px;
+    text-transform: none;
+}
+
+.lumora-hero .hero-content p {
+    color: #695c54;
+    max-width: 580px;
+}
+
+.lumora-hero .hero-img .image img,
+.lumora-hero .sider-img-on img,
+.lumora-hero .sider-img-two img,
+.collection-item .images img,
+.wpo-about-img img {
+    object-fit: cover;
+}
+
+.lumora-hero .hero-img .image img {
+    aspect-ratio: 5 / 6;
+    width: 100%;
+}
+
+.lumora-hero .sider-img-on img,
+.lumora-hero .sider-img-two img {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+}
+
+.lumora-soon {
+    min-height: 760px;
+}
+
+.lumora-soon .hero-content {
+    max-width: 540px;
+}
+
+.lumora-soon .hero-content .title,
+.lumora-soon .hero-content h1 {
+    font-size: 54px;
+}
+
+.lumora-note {
+    background: #ffffff;
+    border: 1px solid rgba(141, 106, 79, 0.18);
+    min-height: 250px;
+    padding: 38px 34px;
+}
+
+.lumora-note span {
+    color: #c8a27c;
+    display: block;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 22px;
+}
+
+.lumora-note h3 {
+    color: #281f1a;
+    font-size: 25px;
+    margin-bottom: 14px;
+}
+
+.lumora-note p {
+    color: #6d625b;
+    margin-bottom: 0;
+}
+
+.lumora-about {
+    background: #ffffff;
+}
+
+.lumora-footer {
+    background: #2c231f;
+}
+
+.lumora-footer-brand {
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+@media (max-width: 991px) {
+    .lumora-hero .hero-content .title,
+    .lumora-hero .hero-content h1 {
+        font-size: 46px;
+    }
+
+    .lumora-header-link {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .lumora-brand {
+        font-size: 22px;
+    }
+
+    .lumora-hero .hero-content .title,
+    .lumora-hero .hero-content h1 {
+        font-size: 36px;
+    }
+}
