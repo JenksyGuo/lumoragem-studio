@@ -29,6 +29,12 @@
     text-transform: uppercase;
 }
 
+.lumora-hero .hero-content {
+    max-width: 560px;
+    position: relative;
+    z-index: 2;
+}
+
 .lumora-hero .hero-content .title,
 .lumora-hero .hero-content h1 {
     color: #281f1a;
@@ -118,7 +124,22 @@
     font-family: Georgia, "Times New Roman", serif;
 }
 
+@media (max-width: 1399px) {
+    .lumora-hero .hero-content {
+        max-width: 520px;
+    }
+
+    .lumora-hero .hero-content .title,
+    .lumora-hero .hero-content h1 {
+        font-size: 58px;
+    }
+}
+
 @media (max-width: 991px) {
+    .lumora-hero .hero-content {
+        max-width: 100%;
+    }
+
     .lumora-hero .hero-content .title,
     .lumora-hero .hero-content h1 {
         font-size: 46px;
