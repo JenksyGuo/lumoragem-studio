@@ -2,6 +2,10 @@
     background: #fffaf5;
 }
 
+.lumora-page .preloader {
+    display: none !important;
+}
+
 .lumora-brand {
     color: #34261f !important;
     font-family: Georgia, "Times New Roman", serif;
@@ -13,10 +17,24 @@
 }
 
 .lumora-header-link {
+    border: 1px solid rgba(141, 106, 79, 0.45);
     color: #8d6a4f;
-    font-size: 14px;
+    display: inline-flex;
+    font-size: 13px;
     font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    min-width: 116px;
+    padding: 14px 18px;
     text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.25s ease;
+}
+
+.lumora-header-link:hover {
+    background: #ba9659;
+    border-color: #ba9659;
+    color: #ffffff;
 }
 
 .lumora-kicker {
